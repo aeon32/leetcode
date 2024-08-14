@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc452_minimum_number_of_arrows_to_burst_balloon)
+SET (SUBPROJECT lc0053_maximum_subarray)
 PROJECT (${SUBPROJECT} C CXX)
 
 
@@ -11,7 +11,7 @@ SET (HEADERS
 
 
 SET (SOURCES
-        lc452.cpp
+        lc0053.cpp
 )
 
 #SET(Python3_VERSIONS 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0)

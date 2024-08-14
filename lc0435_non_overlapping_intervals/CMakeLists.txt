@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc435_non_overlapping_intervals)
+SET (SUBPROJECT lc0435_non_overlapping_intervals)
 PROJECT (${SUBPROJECT} C CXX)
 
 
@@ -11,7 +11,7 @@ SET (HEADERS
 
 
 SET (SOURCES
-   lc435.cpp
+        lc0435.cpp
 )
 
 #SET(Python3_VERSIONS 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0)

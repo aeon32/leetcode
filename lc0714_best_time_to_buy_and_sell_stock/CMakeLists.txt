@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc72_edit_distance)
+SET (SUBPROJECT lc714_best_time_to_buy_and_sell_stock)
 PROJECT (${SUBPROJECT} C CXX)
 
 
@@ -11,7 +11,7 @@ SET (HEADERS
 
 
 SET (SOURCES
-        lc72.cpp
+   lc0714.cpp
 )
 
 #SET(Python3_VERSIONS 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0)

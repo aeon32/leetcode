@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc22_generate_parentheses)
+SET (SUBPROJECT lc0007_reverse_integer)
 PROJECT (${SUBPROJECT} C CXX)
 
 
@@ -11,7 +11,7 @@ SET (HEADERS
 
 
 SET (SOURCES
-        lc22.cpp
+        lc0007.cpp
 )
 
 #SET(Python3_VERSIONS 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0)

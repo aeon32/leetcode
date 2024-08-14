@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc338_counting_bits)
+SET (SUBPROJECT lc0743_network_delay_time)
 PROJECT (${SUBPROJECT} C CXX)
 
 
@@ -11,7 +11,7 @@ SET (HEADERS
 
 
 SET (SOURCES
-        lc338.cpp
+   lc0743.cpp
 )
 
 #SET(Python3_VERSIONS 3.11 3.10 3.9 3.8 3.7 3.6 3.5 3.4 3.3 3.2 3.1 3.0)
