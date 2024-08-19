@@ -188,7 +188,7 @@ int test(const std::string & prices)
         static_assert( std::ranges::range<PyObject_wrapper> , "as");
         //static_assert( std::ranges::forward_range<PyObject_wrapper> , "as");
 
-        auto int_view = parsed | std::views::transform( [] (const PyObject_wrapper & wrapper) {return wrapper.asInt();});
+        auto int_view = parsed | std::views::transform( [] (const PyObject_wrapper & wrapper) {return wrapper.asString();});
 
         ListNode * head = nullptr;
         ListNode * tail = nullptr;

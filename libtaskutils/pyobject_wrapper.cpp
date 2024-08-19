@@ -37,11 +37,28 @@ const char * PyObject_wrapper::asString() const
     return PyBytes_AsString(mpObject);
 }
 
+
 long long int PyObject_wrapper::asInt() const
 {
-    assert(PyLong_Check(mpObject));
-    return PyLong_AsLongLong(mpObject);
+    PyObject_wrapper number_object;
+    if (PyLong_Check(mpObject))
+    {
+        return PyLong_AsLongLong(mpObject);
+    } else
+    {
+        PyObject * converted = PyNumber_Long(mpObject);
+        if (converted)
+            number_object = PyObject_wrapper(converted, false);
+    }
+    assert(number_object.get() != nullptr);
+    long long int res = PyLong_AsLongLong(number_object.get());
+    return res;
 }
+
+
+
+
+
 
 std::size_t PyObject_wrapper::len() const
 {
