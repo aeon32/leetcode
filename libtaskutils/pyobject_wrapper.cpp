@@ -73,6 +73,12 @@ PyObject_wrapper  PyObject_wrapper::PyObjectIterator::operator*() const
 }
 
 
+PyObject_wrapper PyObject_wrapper::PyObjectIterator::operator->() const
+{
+    return PyObject_wrapper(value, true);
+}
+
+
 PyObject_wrapper::PyObjectIterator & PyObject_wrapper::PyObjectIterator::operator++()
 {
     PyObject * newValue = PyIter_Next(iterator);

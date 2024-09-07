@@ -143,6 +143,11 @@ class PyObject_wrapper
         return pTemp;
     }
 
+    PyObject_wrapper * operator -> ()
+    {
+        return this;
+    }
+
     /// operator!
     /// This returns the opposite of operator bool; it returns true if
     /// the owned pointer is null. Some compilers require this and some don't.
@@ -171,6 +176,7 @@ class PyObject_wrapper
         using difference_type = std::ptrdiff_t;
 
         PyObject_wrapper  operator*() const;
+        PyObject_wrapper operator->() const;
 
         PyObjectIterator & operator++();
 
