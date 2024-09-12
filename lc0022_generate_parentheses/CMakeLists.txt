@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc22_generate_parentheses)
+SET (SUBPROJECT lc0022_generate_parentheses)
 PROJECT (${SUBPROJECT} C CXX)
 
 

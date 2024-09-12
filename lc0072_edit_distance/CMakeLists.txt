@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc72_edit_distance)
+SET (SUBPROJECT lc0072_edit_distance)
 PROJECT (${SUBPROJECT} C CXX)
 
 

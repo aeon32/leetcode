@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc338_counting_bits)
+SET (SUBPROJECT lc0338_counting_bits)
 PROJECT (${SUBPROJECT} C CXX)
 
 

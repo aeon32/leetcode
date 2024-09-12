@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc381_insert_delete_getrandom_duplicates_allowed)
+SET (SUBPROJECT lc0381_insert_delete_getrandom_duplicates_allowed)
 PROJECT (${SUBPROJECT} C CXX)
 
 

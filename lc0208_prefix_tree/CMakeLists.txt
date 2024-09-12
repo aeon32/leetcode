@@ -1,4 +1,4 @@
-SET (SUBPROJECT lc208_prefix_tree)
+SET (SUBPROJECT lc0208_prefix_tree)
 PROJECT (${SUBPROJECT} C CXX)
 
 
