@@ -21,6 +21,7 @@
       <config projectName="leetcode" targetName="lc0072_edit_distance" />
       <config projectName="leetcode" targetName="lc0007_reverse_integer" />
       <config projectName="leetcode" targetName="lc0227_basic_calculator_2" />
+      <config projectName="leetcode" targetName="lc0567_permutation_in_string" />
       <config projectName="leetcode" targetName="lc0148_sort_list" />
       <config projectName="leetcode" targetName="lc0743_network_delay_time" />
       <config projectName="leetcode" targetName="lc0077_combinations" />
@@ -42,12 +43,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a367b21-1c0a-416f-b811-b76686c60de3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_build_gcc/make_develop_x64.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_build_gcc/make_develop_x64.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build_gcc/make_develop_x64_bundled_cmake.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_build_gcc/make_develop_x64_bundled_cmake.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_build_gcc/make_develop_x86.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_build_gcc/make_develop_x86.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/lc0033.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/lc0033.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc0714_best_time_to_buy_and_sell_stock/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lc0714_best_time_to_buy_and_sell_stock/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc0567_permutation_in_string/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc0567_permutation_in_string/lc0567.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc0452_minimum_number_of_arrows_to_burst_balloon/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lc0452_minimum_number_of_arrows_to_burst_balloon/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2muoF3BoMtnUX9hXcxyrZBZRQnG" />
   <component name="ProjectViewState">
@@ -69,9 +76,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.overridden" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RunManager" selected="CMake Application.lc0033_search_in_rotated_sorted_array">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.lc0567_permutation_in_string">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -182,6 +195,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lc0567_permutation_in_string" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0567_permutation_in_string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0567_permutation_in_string">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lc0714_best_time_to_buy_and_sell_stock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0714_best_time_to_buy_and_sell_stock" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0714_best_time_to_buy_and_sell_stock">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -245,6 +263,7 @@
       <item itemvalue="CMake Application.lc0381_insert_delete_getrandom_duplicates_allowed" />
       <item itemvalue="CMake Application.lc0435_non_overlapping_intervals" />
       <item itemvalue="CMake Application.lc452_minimum_number_of_arrows_to_burst_balloon" />
+      <item itemvalue="CMake Application.lc0567_permutation_in_string" />
       <item itemvalue="CMake Application.lc0714_best_time_to_buy_and_sell_stock" />
       <item itemvalue="CMake Application.lc0743_network_delay_time" />
       <item itemvalue="CMake Application.lc0849_maximize_distance_to_closest_person" />
@@ -262,11 +281,27 @@
       <option name="presentableId" value="Default" />
       <updated>1727935715133</updated>
       <workItem from="1727935716331" duration="2951000" />
-      <workItem from="1727940292199" duration="7129000" />
+      <workItem from="1727940292199" duration="14130000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lc0567_permutation_in_string/lc0567.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lc0567_permutation_in_string/lc0567.cpp</url>
+          <line>65</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
