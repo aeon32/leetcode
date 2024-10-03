@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="leetcode" targetName="lc0046_permutations" />
+      <config projectName="leetcode" targetName="lc0150_evaluate_reverse_polish_notation" />
+      <config projectName="leetcode" targetName="lc0056_merge_intervals" />
+      <config projectName="leetcode" targetName="lc0435_non_overlapping_intervals" />
+      <config projectName="leetcode" targetName="lc1318_minimum_flips_to_make_a_or" />
+      <config projectName="leetcode" targetName="lc0224_basic_calculator" />
+      <config projectName="leetcode" targetName="lc0053_maximum_subarray" />
+      <config projectName="leetcode" targetName="lc0849_maximize_distance_to_closest_person" />
+      <config projectName="leetcode" targetName="lc0146_lru_cache" />
+      <config projectName="leetcode" targetName="lc0051_nqueens" />
+      <config projectName="leetcode" targetName="lc0381_insert_delete_getrandom_duplicates_allowed" />
+      <config projectName="leetcode" targetName="lc0338_counting_bits" />
+      <config projectName="leetcode" targetName="lc0022_generate_parentheses" />
+      <config projectName="leetcode" targetName="lc1238_circular_permutation_in_binary_representation" />
+      <config projectName="leetcode" targetName="lc0208_prefix_tree" />
+      <config projectName="leetcode" targetName="lc0200_number_of_islands" />
+      <config projectName="leetcode" targetName="lc0072_edit_distance" />
+      <config projectName="leetcode" targetName="lc0007_reverse_integer" />
+      <config projectName="leetcode" targetName="lc0227_basic_calculator_2" />
+      <config projectName="leetcode" targetName="lc0148_sort_list" />
+      <config projectName="leetcode" targetName="lc0743_network_delay_time" />
+      <config projectName="leetcode" targetName="lc0077_combinations" />
+      <config projectName="leetcode" targetName="taskutils" />
+      <config projectName="leetcode" targetName="lc0033_search_in_rotated_sorted_array" />
+      <config projectName="leetcode" targetName="lc0714_best_time_to_buy_and_sell_stock" />
+      <config projectName="leetcode" targetName="lc452_minimum_number_of_arrows_to_burst_balloon" />
+      <config projectName="leetcode" targetName="lc0039_combination_sum" />
+      <config projectName="leetcode" targetName="lc0079_word_search" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DTARGET_CONF=Debug -DCMAKE_TOOLCHAIN_FILE=_build_gcc/x64.cmake" GENERATION_DIR="_build_gcc/bin_debug_x64" ENABLED="true" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-DTARGET_CONF=Release -DCMAKE_TOOLCHAIN_FILE=_build_gcc/x64.cmake" GENERATION_DIR="_build_gcc/bin_release_x64" ENABLED="true" />
+      <configuration PROFILE_NAME="RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" GENERATION_OPTIONS="-DTARGET_CONF=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=_build_gcc/x64.cmake" GENERATION_DIR="_build_gcc/bin_relwithdebinfo_x64" ENABLED="true" />
+      <configuration PROFILE_NAME="Develop" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DTARGET_CONF=Debug -DCMAKE_TOOLCHAIN_FILE=_build_gcc/x64.cmake" GENERATION_DIR="_build_gcc/bin_develop_x64" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a367b21-1c0a-416f-b811-b76686c60de3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_build_gcc/make_develop_x64.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_build_gcc/make_develop_x64.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build_gcc/make_develop_x64_bundled_cmake.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_build_gcc/make_develop_x64_bundled_cmake.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build_gcc/make_develop_x86.sh" beforeDir="false" afterPath="$PROJECT_DIR$/_build_gcc/make_develop_x86.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/lc0033.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lc0033_search_in_rotated_sorted_array/lc0033.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc0714_best_time_to_buy_and_sell_stock/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lc0714_best_time_to_buy_and_sell_stock/CMakeLists.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2muoF3BoMtnUX9hXcxyrZBZRQnG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager" selected="CMake Application.lc0033_search_in_rotated_sorted_array">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0007_reverse_integer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0007_reverse_integer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0007_reverse_integer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0022_generate_parentheses" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0022_generate_parentheses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0022_generate_parentheses">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0033_search_in_rotated_sorted_array" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0033_search_in_rotated_sorted_array" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0033_search_in_rotated_sorted_array">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0039_combination_sum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0039_combination_sum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0039_combination_sum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0046_permutations" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0046_permutations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0046_permutations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0051_nqueens" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0051_nqueens" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0051_nqueens">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0053_maximum_subarray" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0053_maximum_subarray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0053_maximum_subarray">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0056_merge_intervals" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0056_merge_intervals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0056_merge_intervals">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0072_edit_distance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0072_edit_distance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0072_edit_distance">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0077_combinations" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0077_combinations" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0077_combinations">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0079_word_search" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0079_word_search" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0079_word_search">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0146_lru_cache" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0146_lru_cache" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0146_lru_cache">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0148_sort_list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0148_sort_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0148_sort_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0150_evaluate_reverse_polish_notation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0150_evaluate_reverse_polish_notation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0150_evaluate_reverse_polish_notation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0200_number_of_islands" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0200_number_of_islands" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0200_number_of_islands">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0208_prefix_tree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0208_prefix_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0208_prefix_tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0224_basic_calculator" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0224_basic_calculator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0224_basic_calculator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0227_basic_calculator_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0227_basic_calculator_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0227_basic_calculator_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0338_counting_bits" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0338_counting_bits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0338_counting_bits">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0381_insert_delete_getrandom_duplicates_allowed" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0381_insert_delete_getrandom_duplicates_allowed" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0381_insert_delete_getrandom_duplicates_allowed">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0435_non_overlapping_intervals" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0435_non_overlapping_intervals" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0435_non_overlapping_intervals">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0714_best_time_to_buy_and_sell_stock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0714_best_time_to_buy_and_sell_stock" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0714_best_time_to_buy_and_sell_stock">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0743_network_delay_time" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0743_network_delay_time" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0743_network_delay_time">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc0849_maximize_distance_to_closest_person" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc0849_maximize_distance_to_closest_person" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc0849_maximize_distance_to_closest_person">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc1238_circular_permutation_in_binary_representation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc1238_circular_permutation_in_binary_representation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc1238_circular_permutation_in_binary_representation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc1318_minimum_flips_to_make_a_or" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc1318_minimum_flips_to_make_a_or" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc1318_minimum_flips_to_make_a_or">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc452_minimum_number_of_arrows_to_burst_balloon" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="lc452_minimum_number_of_arrows_to_burst_balloon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="leetcode" RUN_TARGET_NAME="lc452_minimum_number_of_arrows_to_burst_balloon">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="taskutils" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="leetcode" TARGET_NAME="taskutils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.lc0007_reverse_integer" />
+      <item itemvalue="CMake Application.lc0022_generate_parentheses" />
+      <item itemvalue="CMake Application.lc0033_search_in_rotated_sorted_array" />
+      <item itemvalue="CMake Application.lc0039_combination_sum" />
+      <item itemvalue="CMake Application.lc0046_permutations" />
+      <item itemvalue="CMake Application.lc0051_nqueens" />
+      <item itemvalue="CMake Application.lc0053_maximum_subarray" />
+      <item itemvalue="CMake Application.lc0056_merge_intervals" />
+      <item itemvalue="CMake Application.lc0072_edit_distance" />
+      <item itemvalue="CMake Application.lc0077_combinations" />
+      <item itemvalue="CMake Application.lc0079_word_search" />
+      <item itemvalue="CMake Application.lc0146_lru_cache" />
+      <item itemvalue="CMake Application.lc0148_sort_list" />
+      <item itemvalue="CMake Application.lc0150_evaluate_reverse_polish_notation" />
+      <item itemvalue="CMake Application.lc0200_number_of_islands" />
+      <item itemvalue="CMake Application.lc0208_prefix_tree" />
+      <item itemvalue="CMake Application.lc0224_basic_calculator" />
+      <item itemvalue="CMake Application.lc0227_basic_calculator_2" />
+      <item itemvalue="CMake Application.lc0338_counting_bits" />
+      <item itemvalue="CMake Application.lc0381_insert_delete_getrandom_duplicates_allowed" />
+      <item itemvalue="CMake Application.lc0435_non_overlapping_intervals" />
+      <item itemvalue="CMake Application.lc452_minimum_number_of_arrows_to_burst_balloon" />
+      <item itemvalue="CMake Application.lc0714_best_time_to_buy_and_sell_stock" />
+      <item itemvalue="CMake Application.lc0743_network_delay_time" />
+      <item itemvalue="CMake Application.lc0849_maximize_distance_to_closest_person" />
+      <item itemvalue="CMake Application.lc1238_circular_permutation_in_binary_representation" />
+      <item itemvalue="CMake Application.lc1318_minimum_flips_to_make_a_or" />
+      <item itemvalue="CMake Application.taskutils" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a367b21-1c0a-416f-b811-b76686c60de3" name="Default Changelist" comment="" />
+      <created>1727935715133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727935715133</updated>
+      <workItem from="1727935716331" duration="2951000" />
+      <workItem from="1727940292199" duration="7129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

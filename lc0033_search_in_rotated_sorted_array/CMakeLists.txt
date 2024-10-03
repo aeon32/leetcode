@@ -10,6 +10,14 @@ SET (INC_DIRS
   ${FULL_SOURCE_DIR}
 )
 
+FIND_PACKAGE(Python3 COMPONENTS Development)
+IF (NOT Python3_Development_FOUND)
+    MESSAGE(FATAL_ERROR "Python libs not found")
+ENDIF(NOT Python3_Development_FOUND)
+
+SET (INC_DIRS
+   ${FULL_SOURCE_DIR} ${Python3_INCLUDE_DIRS}
+)
 
 SOURCE_GROUP ("Header Files" FILES ${HEADERS} )
 SOURCE_GROUP ("Source Files" FILES ${SOURCES})

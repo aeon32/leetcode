@@ -7,6 +7,7 @@
 #include <ranges>
 #include <sstream>
 #include <limits>
+#include <type_traits>
 
 #include <libtaskutils/python_exceptions.h>
 #include <libtaskutils/python_utils.h>
@@ -14,74 +15,76 @@
 
 class Solution {
  public:
-    int maxSubArray(std::vector<int>& nums)
+    int search(std::vector<int>& nums, int target)
     {
-        if (nums.size() == 1)
-            return nums.front();
+        using nums_iterator = std::remove_reference<decltype(nums)>::type::const_iterator;
+        using value_type = std::remove_reference< decltype(nums) > :: type::value_type;
 
-        int i = 0;
-        int max_negative_num = nums[i];
-        int val;
-        while ( i<nums.size() && (val = nums[i++]) <0)
+        if (nums.empty())
+            return -1;
+
+        nums_iterator startIt = nums.cbegin();
+        nums_iterator endIt = nums.cend() - 1;
+
+        int res = -1;
+
+        while(startIt <= endIt)
         {
-            if (val > max_negative_num)
-                max_negative_num = val;
-        }
-        //all are negative
-        if (val < 0)
-            return max_negative_num;
+            nums_iterator mid = startIt + (endIt - startIt) / 2;
 
-        std::vector<int> folded;
-        folded.reserve(nums.size());
-        folded.push_back(nums[i-1]);
-        bool is_positive = true;
+            value_type startValue = *startIt;
+            value_type endValue = *endIt;
+            value_type midValue = *mid;
+            std::cout<<startValue<<" "<<midValue<<" "<<endValue<<std::endl;
 
-        for( ;i < nums.size(); i++)
-        {
-            val = nums[i];
-            if (val >= 0)
+            bool first_part_sorted = startValue <= midValue;
+            bool second_part_sorted = midValue <= startValue;
+
+            if (target < midValue)
             {
-                if (is_positive)
-                    folded.back() += val;
-                else
+
+                if (first_part_sorted)
                 {
-                    is_positive = true;
-                    folded.push_back(val);
-                }
-            } else
-            {
-                if (is_positive)
-                {
-                    is_positive = false;
-                    folded.push_back(val);
+                    if (target >= startValue)
+                    {
+                        endIt = mid - 1;
+                    } else
+                    {
+                       startIt = mid + 1;
+                    }
                 } else
                 {
-                    folded.back() += val;
+                    endIt = mid - 1;
                 }
 
+            } else if (target > *mid)
+            {
+                if (second_part_sorted)
+                {
+
+                    if (target <= endValue)
+                        startIt = mid + 1;
+                    else
+                        endIt = mid - 1;
+
+                } else
+                {
+                        startIt = mid + 1;
+
+                }
+
+            } else {
+                res = mid - nums.cbegin();
+                break;
             }
+
+
         }
-        if (folded.back() < 0)
-        {
-            folded.resize(folded.size() - 1);
-        }
-
-        std::vector<int> dp((folded.size() + 1) / 2 );
-        dp.front() = folded.front();
-        for (i = 2; i < folded.size(); i+=2)
-        {
-            int j = i / 2;
-            dp[j] = std::max({dp[j - 1] + folded[i - 1] + folded[i], folded[i] });
-            //res = std::max({res, res + folded[i - 1] + folded[i], folded[i]});
-        }
-        return *std::max_element(dp.begin(), dp.end());
-
-
-
+        return res;
     }
 };
 
-int test(const std::string & nums)
+int test(const std::string & nums, int target)
 {
     int res = -1;
     try
@@ -97,7 +100,7 @@ int test(const std::string & nums)
         std::ranges::copy(int_view, std::back_inserter(array));
 
         Solution solution;
-        res = solution.maxSubArray(array);
+        res = solution.search(array, target);
 
     } catch (PythonParserException & exc)
     {
@@ -110,45 +113,28 @@ int test(const std::string & nums)
 void test1()
 {
     //const char * prices = R"ad([1036,2413,2776,825,2640,31,1560,2917,4282,783,3146,2600,1939,694,4284,3881,554,167,372,4620,3037,1175,1075,3845,4981,4495,2807,4774,4526,3914,2633,3762,1570,2334,616,1648,1914,2900,349,2428,4013,1964,4020,1882,629,240,2595,2902,3419,292,224,4437,4918,632,3701,3840,3996,2129,3345,3979,1954,781,1576,1084,3250,4517,3106,2133,309,4520,2225])ad";
-    const char * nums = "[-2,1,-3,4,-1,2,1,-5,4]";
+    const char * nums = "[3,1]";
 
-    int res = test(std::string(nums));
-
-}
-
-void test2()
-{
-    //const char * prices = R"ad([1036,2413,2776,825,2640,31,1560,2917,4282,783,3146,2600,1939,694,4284,3881,554,167,372,4620,3037,1175,1075,3845,4981,4495,2807,4774,4526,3914,2633,3762,1570,2334,616,1648,1914,2900,349,2428,4013,1964,4020,1882,629,240,2595,2902,3419,292,224,4437,4918,632,3701,3840,3996,2129,3345,3979,1954,781,1576,1084,3250,4517,3106,2133,309,4520,2225])ad";
-    const char * nums = "[1]";
-
-    int res = test(std::string(nums));
+    int res = test(std::string(nums), 1);
 
 }
 
-void test3()
+void test0()
 {
-    const char * nums = "[5,4,-1,7,8]";
+    const char * nums = "[0,1,2]";
+    int res = test(std::string(nums), 0);
+    res = test(std::string(nums), 1);
+    res = test(std::string(nums), 2);
+    res = test(std::string(nums), 3);
+    res = test(std::string(nums), -1);
 
-    int res = test(std::string(nums));
-}
 
-void test4()
-{
-    //const char * prices = R"ad([1036,2413,2776,825,2640,31,1560,2917,4282,783,3146,2600,1939,694,4284,3881,554,167,372,4620,3037,1175,1075,3845,4981,4495,2807,4774,4526,3914,2633,3762,1570,2334,616,1648,1914,2900,349,2428,4013,1964,4020,1882,629,240,2595,2902,3419,292,224,4437,4918,632,3701,3840,3996,2129,3345,3979,1954,781,1576,1084,3250,4517,3106,2133,309,4520,2225])ad";
-    const char * nums = "[8,-19,5,-4,20]";
-
-    int res = test(std::string(nums));
 
 }
 
 
 int main(int argc, char** argv)
 {
-    //char c = 0xFB;
-    //std::cout<< (int) c <<std::endl;
     test1();
-    test2();
-    test3();
-    test4();
 }
 
