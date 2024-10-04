@@ -44,10 +44,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a367b21-1c0a-416f-b811-b76686c60de3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lc0295_median_finder/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc0295_median_finder/lc0295.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lc0567_permutation_in_string/lc0567.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lc0567_permutation_in_string/lc0567.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lc0295_median_finder/lc0295.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/lc0295_median_finder/lc0295.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +287,7 @@
       <updated>1727935715133</updated>
       <workItem from="1727935716331" duration="2951000" />
       <workItem from="1727940292199" duration="14130000" />
-      <workItem from="1728014362783" duration="10224000" />
+      <workItem from="1728014362783" duration="13531000" />
     </task>
     <servers />
   </component>

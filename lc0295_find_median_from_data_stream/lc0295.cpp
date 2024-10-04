@@ -45,7 +45,7 @@ class MedianFinder {
                 {
                     std::swap( my_heap[initial_index - 1] , my_heap[initial_index]);
                 }
-               
+
                 break;
             }
         }
