@@ -28,23 +28,27 @@ class Solution {
         }
 
         std::size_t i = 0;
-        std::size_t j = i;
+        std::size_t tail = i; //uncalculated taile
         std::size_t matched_count = 0;
 
         while ( i <= word2.size() - word1.size())
         {
 
-            std::cout<<word2[i]<<" "<<word2[j]<<std::endl;
-            for (; j < i + word1.size(); )
-            {
-                char symb = word2[j];
-                CharNumsMap::iterator it = charNumsMap.find(symb);
+            //std::cout<<word2[i]<<" "<<word2[tail]<<std::endl;
 
-                if (it != charNumsMap.end() && it->second !=0)
+            bool tail_symbol_in_map = false;
+            for (; tail < i + word1.size(); )
+            {
+                char symb = word2[tail];
+                CharNumsMap::iterator tail_symbol_it = charNumsMap.find(symb);
+
+                tail_symbol_in_map = tail_symbol_it != charNumsMap.end();
+
+                if (tail_symbol_in_map && tail_symbol_it->second !=0)
                 {
-                    it->second--;
+                    tail_symbol_it->second--;
                     matched_count++;
-                    j++;
+                    tail++;
                 } else
                 {
                     break;
@@ -54,24 +58,26 @@ class Solution {
             if (matched_count == word1.size() ) //whole word has been found
                 return true;
 
-            if (word2[i] == word2[j] )
+            if (tail_symbol_in_map )
             {
+                charNumsMap[word2[i]]++;
+                matched_count--;
                 i++;//
-                j++;
 
             } else
             {
-                for (std::size_t k = i; k < j; k++)
+                for (std::size_t k = i; k < tail; k++)
                 {
                     char symb = word2[k];
                     CharNumsMap::iterator it = charNumsMap.find(symb);
                     if (it != charNumsMap.end())
                     {
                         it->second++;
-                        matched_count--;
                     }
                 }
-                i = j;
+                matched_count = 0;
+                tail++;
+                i = tail;
 
             }
 
@@ -123,8 +129,9 @@ void test3()
 
 int main(int argc, char** argv)
 {
-   //test0();
-   //test1();
+   test0();
+   test1();
+   test2();
    test3();
 
 }
